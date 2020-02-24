@@ -25,4 +25,4 @@ server:
 ![](/images/posts/2020022203.png)
 > 只需将SSL下载文件中的.pfx文件，添加到跟jar同级目录即可
 
-### 至此完成了SpringBoot工程的SSL配置。
+## 至此完成了SpringBoot工程的SSL配置。
