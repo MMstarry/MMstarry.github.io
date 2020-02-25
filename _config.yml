@@ -10,17 +10,15 @@ url: "http://MMstarry.github.io"
 
 # Comment
 comment:
-    giteement:
-        enable: true
-
     
-    #gitment: MMstarry #需要修改 comments.html中的client_id和client_secret
+    # gitment: MMstarry 需要修改 comments.html中的client_id和client_secret
     # uyan: 2143225  # 有言id,登录有言官网申请
 
 # Social
 social:
+    weibo:  Forever-lv
     github: MMstarry
-    qq: 1668846604
+    
     mail: 18297397903@163.com
 
 # 百度统计 
