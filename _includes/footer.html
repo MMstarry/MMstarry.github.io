@@ -4,15 +4,6 @@
         <nav class="cover-navigation navigation--social">
            <ul class="navigation">
 
-          {% if site.social.weibo %}
-          <!-- Weibo -->
-          <li class="navigation__item_social">
-            <a href="http://weibo.com/{{site.social.weibo}}" title="@{{site.social.weibo}} 的微博" target="_blank">
-              <i class='social fa fa-weibo fa-2x'></i>
-              <span class="label">Weibo</span>
-            </a>
-          </li>
-          {% endif %}
 
           {% if site.social.github %}
           <!-- Github -->
@@ -25,7 +16,7 @@
           {% endif %}
           
            {% if site.social.qq %}
-          <!-- Zhihu -->
+          <!-- QQ -->
           <li class="navigation__item_social">
             <a href="tencent://message/?uin={{site.social.qq}}" title="@{{site.social.qq}}" target="_blank">
              <i class='social fa fa-qq fa-2x'></i>
@@ -39,7 +30,7 @@
           {% if site.social.mail %}
           <!-- Email -->
           <li class="navigation__item_social">
-            <a href="mailto:{{site.social.mail}};{{site.social.mail}}?CC={{site.social.mail}}&Subject=Hello&Body=你好" title="Contact me">
+            <a href="mailto:{{site.social.mail}}" title="Contact me">
               <i class='social fa fa-envelope fa-2x'></i>
               <span class="label">Email</span>
             </a>
