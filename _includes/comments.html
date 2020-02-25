@@ -30,10 +30,10 @@
     
    <!--  <link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
     <script src="https://billts.site/js/gitment.js"></script> -->
-<!-- 
+
      <link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
-<script src="https://www.wenjunjiang.win/js/gitment.js"></script> -->
-    <!-- <script>
+<script src="https://www.wenjunjiang.win/js/gitment.js"></script>
+    <script>
     var gitment = new Gitment({
         id: '{{ page.title }}', 
         owner: 'MMstarry',
@@ -44,23 +44,7 @@
         },
     });
     gitment.render('gitmentContainer');
-    </script> -->
- <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<script>
-const gitalk = new Gitalk({
-  clientID: '454cc86fd24c4196aaa2',
-  clientSecret: '58c7b164de46cd4430c5dc36dd1c0985b8274e30',
-  repo: 'MMstarry.github.io',
-  owner: 'MMstarry',
-  admin: ['MMstarry'],
-  id: '{{ page.title }}',      // Ensure uniqueness and length less than 50
-  distractionFreeMode: false  // Facebook-like distraction free mode
-})
-
-gitalk.render('gitmentContainer');
-</script>
+    </script>
   {% endif %}
 
 </section>
