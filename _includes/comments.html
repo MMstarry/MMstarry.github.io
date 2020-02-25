@@ -32,7 +32,7 @@
     <script src="https://billts.site/js/gitment.js"></script>
     <script>
     var gitment = new Gitment({
-        id: document.location.href,
+        id: document.location.href.replace(/(^/s*)|(/s*$)/g,''),
         owner: 'MMstarry',
         repo: 'MMstarry.github.io',
         oauth: {
