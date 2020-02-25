@@ -25,20 +25,22 @@
     
     
 
-    {% elsif site.comment.gitment %}
+    {% elsif site.comment.giteement %}
     <div id="gitmentContainer"></div>
-    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+    <link rel="stylesheet" href="https://giteement.oss-cn-beijing.aliyuncs.com/default.css">
+    <script src="https://giteement.oss-cn-beijing.aliyuncs.com/giteement.browser.js"></script>
     <script>
-    var gitment = new Gitment({
-        owner: 'MMstarry',
-        repo: 'myblog-comment',
-        oauth: {
-            client_id: '9ea9f70f903d277a7f71',
-            client_secret: '03a35f622b0edd1c9cc1d669b5ae317c5efd675f',
-        },
+    var giteement = new Giteement({
+          owner: 'MMstarry',
+      repo: 'mmstarry',
+      backcall_uri: 'https://mmstarry.github.io',
+      oauth_uri: 'https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token',
+      oauth: {
+        client_id: '913c8ef7ff5bbccf9d5e09487c9277612e092965e47f480c292565ca66d30bcd',
+        client_secret: '2245e89a1d829bd7ba479796f2548a78b0cb59fcdff50a52c733f80a838d444c'
+      },
     });
-    gitment.render('gitmentContainer');
+    giteement.render('gitmentContainer');
     </script>
   {% endif %}
 
